@@ -1,0 +1,74 @@
+{
+  "model": "RandomForestClassifier",
+  "accuracy": 0.9994,
+  "classes": [
+    "humide",
+    "normal",
+    "sec"
+  ],
+  "classification_report": {
+    "humide": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 212.0
+    },
+    "normal": {
+      "precision": 0.9992260061919505,
+      "recall": 1.0,
+      "f1-score": 0.9996128532713898,
+      "support": 1291.0
+    },
+    "sec": {
+      "precision": 1.0,
+      "recall": 0.9955555555555555,
+      "f1-score": 0.9977728285077951,
+      "support": 225.0
+    },
+    "accuracy": 0.9994212962962963,
+    "macro avg": {
+      "precision": 0.9997420020639834,
+      "recall": 0.9985185185185186,
+      "f1-score": 0.9991285605930617,
+      "support": 1728.0
+    },
+    "weighted avg": {
+      "precision": 0.9994217442093797,
+      "recall": 0.9994212962962963,
+      "f1-score": 0.9994207638817235,
+      "support": 1728.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      212,
+      0,
+      0
+    ],
+    [
+      0,
+      1291,
+      0
+    ],
+    [
+      0,
+      1,
+      224
+    ]
+  ],
+  "feature_importances": {
+    "humidite_sol": 0.3996,
+    "temperature": 0.0004,
+    "humidite_air": 0.0005,
+    "hour_sin": 0.0006,
+    "hour_cos": 0.0017,
+    "day_of_week": 0.0003,
+    "humidite_sol_mean_3": 0.2897,
+    "humidite_sol_mean_6": 0.203,
+    "humidite_sol_mean_12": 0.0888,
+    "temperature_mean_3": 0.0008,
+    "humidite_sol_delta": 0.0145
+  },
+  "train_size": 6912,
+  "test_size": 1728
+}

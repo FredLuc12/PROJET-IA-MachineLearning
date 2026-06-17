@@ -1,0 +1,13 @@
+{
+  "dataset_size": 8640,
+  "classifier": {
+    "accuracy": 0.9994,
+    "model": "RandomForestClassifier"
+  },
+  "regressor": {
+    "mae": 0.0458,
+    "rmse": 0.0853,
+    "r2": 0.9999,
+    "model": "RandomForestRegressor"
+  }
+}

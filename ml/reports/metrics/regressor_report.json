@@ -1,0 +1,21 @@
+{
+  "model": "RandomForestRegressor",
+  "mae": 0.0458,
+  "rmse": 0.0853,
+  "r2": 0.9999,
+  "feature_importances": {
+    "humidite_sol": 0.9993,
+    "temperature": 0.0004,
+    "humidite_air": 0.0,
+    "hour_sin": 0.0,
+    "hour_cos": 0.0,
+    "day_of_week": 0.0,
+    "humidite_sol_mean_3": 0.0001,
+    "humidite_sol_mean_6": 0.0,
+    "humidite_sol_mean_12": 0.0,
+    "temperature_mean_3": 0.0002,
+    "humidite_sol_delta": 0.0
+  },
+  "train_size": 6912,
+  "test_size": 1728
+}
